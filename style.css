@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+/*header*/
+header{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    margin: 0 15px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/*section*/
+section{
+    padding: 50px20px;
+    height: 100%;
+    width:100%;
+    z-index: 1;
+    background-size: cover;
+}
+
+/*Home Section*/
+
+.home{
+    background: url(https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2018/06/South-American-Food-Feature.jpg) no-repeat center;
+    color: rgb(186, 22, 22);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index:  2;
+}
+.home-content{
+    background-color: white;
+    padding: 2px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px;
+}
+/*about Section*/
+
+.about{
+    background-color: white;
+}
+
+/*Food menu*/
+.foodmenu {
+    background-color: white;
+}
+.menu-item{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+.item{
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+/*book table*/
+.book-table{
+    background-color: white;
+    text-align: center;
+    gap: 10px;
+    
+}
+ form input,form button{
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    justify-content: center;
+
+ }
+  form button{
+    background-color: #e63946;
+    color: white;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    
+
+ }
+  Form botton:hover{
+    background-color: #28b0d6;
+ }
+ /*footer*/
+ footer{
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    margin-top:20px;
+ }
